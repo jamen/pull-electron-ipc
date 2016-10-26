@@ -11,7 +11,7 @@ pull(
   // Transform:
   transformData(),
   // Send messages:
-  ipc.send('', browserWindow)
+  ipc.send('another-message', browserWindow)
 )
 ```
 
