@@ -2,10 +2,28 @@
 
 > Pull stream for Electron IPC.
 
+```js
+var browserWindow = new BrowserWindow({ ... })
+
+pull(
+  // Source from IPC event:
+  ipc.listen('some-message'),
+  // Transform:
+  transformData(),
+  // Send messages:
+  ipc.send('', browserWindow)
+)
+```
+
+I made this on accident.  I didn't know someone had made [`pull-ipc`](https://npmjs.com/pull-ipc) already.  It does have two additions over it:
+
+ - Automatically figures out `ipcMain` and `ipcRenderer`.
+ - Has `ipc.request` method.
+
 ## Installation
 
 ```sh
-$ npm install --save pull-ipc
+$ npm install --save jamen/pull-ipc
 ```
 
 ## API
