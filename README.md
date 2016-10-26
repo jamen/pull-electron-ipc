@@ -1,4 +1,4 @@
-# pull-ipc [![NPM version](https://badge.fury.io/js/pull-ipc.svg)](https://npmjs.org/package/pull-ipc) [![Build Status](https://travis-ci.org/jamen/pull-ipc.svg?branch=master)](https://travis-ci.org/jamen/pull-ipc)
+# pull-ipc [![Build Status](https://travis-ci.org/jamen/pull-ipc.svg?branch=master)](https://travis-ci.org/jamen/pull-ipc)
 
 > Pull stream for Electron IPC.
 
